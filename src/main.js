@@ -12,7 +12,7 @@ diceBtn.addEventListener('click',()=>{
 })
 
 function getAdvice() {
-    const id = Math.floor(Math.random()*100)+1;
+    const id = Math.floor(Math.random()*100)+2;
 
     fetch(`https://api.adviceslip.com/advice/${id}`)
      .then(res=>res.json())
@@ -23,5 +23,3 @@ function getAdvice() {
     })
     .catch(err => getAdvice())
 }
-
-// 1:43
