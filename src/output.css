@@ -689,8 +689,7 @@ video {
 
 .text-NeonGreen {
   --tw-text-opacity: 1;
-  color: hsl(17,98%,51%);
-}
+  color: hsl(150 100% 66% / var(--tw-text-opacity));}
 
 .text-LightCyan {
   --tw-text-opacity: 1;
